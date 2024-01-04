@@ -1,0 +1,8 @@
+{
+	"Args": [
+		"run"
+	],
+	"FailedItems": [
+		"Scenarios/Specs/weshare.spec:72"
+	]
+}

@@ -1,0 +1,6 @@
+28-11-2023 15:24:59.645 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/wtc/problems/weshare-qa/.gauge/screenshots
+28-11-2023 15:24:59.645 [Gauge] [DEBUG] Plugin dotnet is already installed.
+28-11-2023 15:24:59.706 [Gauge] [DEBUG] Plugin html-report is already installed.
+28-11-2023 15:24:59.706 [Gauge] [DEBUG] Parsing started.
+28-11-2023 15:24:59.727 [Gauge] [DEBUG] Started concepts parsing.
+28-11-2023 15:24:59.730 [Gauge] [ERROR] No such file or diretory: /home/wtc/problems/weshare-qa/specs

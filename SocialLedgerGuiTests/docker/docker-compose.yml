@@ -1,0 +1,19 @@
+version: "3.4"
+services:
+    nopcommerce_web:
+        image: "nopcommerceteam/nopcommerce:4.40.4"
+        container_name: nopcommerce_web
+        ports:
+            - "90:80"
+        depends_on:
+            - nopcommerce_database
+
+    nopcommerce_database:
+        image: "postgres:latest"
+        container_name: nopcommerce_db
+        restart: "always"
+        environment:
+            POSTGRES_PASSWORD: "nopCommerce_db_password"
+
+volumes:
+  nopcommerce_data:
